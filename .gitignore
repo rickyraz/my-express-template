@@ -1,0 +1,34 @@
+/node_modules
+/dist
+
+# Development Mizzle
+build_local
+
+#
+Thumbs.db
+.DS_Store
+npm-debug.log
+
+
+# Keep environment variables out of version control
+# .env
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# logs
+/logs

@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "module": "NodeNext",
+    "target": "ESNext",
+    "types": ["node", "vitest/globals"],
+    "sourceMap": true,
+    "outDir": "dist",
+    "strict": true,
+    "lib": ["DOM", "ESNext"],
+    "esModuleInterop": true,
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  }
+}
