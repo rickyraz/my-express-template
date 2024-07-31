@@ -7,3 +7,7 @@ const port = process.env.PORT;
 app.get("/", async (req: Request, res: Response) => {
 	res.send("test");
 });
+
+app.listen(port, () => {
+	console.log(`Server is running on http://localhost:${port}`);
+});
